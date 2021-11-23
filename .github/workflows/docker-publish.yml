@@ -24,4 +24,4 @@ jobs:
           docker build . --file Dockerfile
         
       - name: docker push
-        run: docker push ${{secrets.DOCKER_USER}}/ode-aws-cli
+        run: docker push ${{secrets.DOCKER_USER}}/node-aws-cli
